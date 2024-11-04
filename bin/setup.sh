@@ -25,6 +25,7 @@ echo "source ~/venv/bin/activate" >> ~/.bashrc
 
 echo "*** Installing Selenium and Chrome for BDD"
 sudo apt-get update
+sudo apt-get install -y gh
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -y sqlite3 ca-certificates chromium-driver python3-selenium
 
 echo "*** Installing Python dependencies..."
