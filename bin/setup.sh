@@ -27,7 +27,7 @@ echo "*** Installing Selenium and Chrome for BDD"
 sudo apt-get update
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -y sqlite3 ca-certificates chromium-driver python3-selenium
 
-echo "*** Installing Python depenencies..."
+echo "*** Installing Python dependencies..."
 source ~/venv/bin/activate && python3 -m pip install --upgrade pip wheel
 source ~/venv/bin/activate && pip install -r requirements.txt
 
